@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Secret Diary</title>
+    <link rel="stylesheet"href="note.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body style="background-color: rgb(240, 213, 179);">
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand">SECRET NOTES</a>
+            <form class="d-flex">
+                <input id="searchtxt" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit" style="background-color:blue;color:white;">Search</button>
+            </form>
+        </div>
+    </nav> 
+
+
+
+
+
+
+    <div class="container my-3">
+        <h1 style="text-align: center;">WELCOME TO SECRET NOTES </h1>
+        <div class="card mx-auto" style="width: 50%; border: 2px solid black; background-color: rgb(245, 214, 167); ">
+
+            <div class="card-body">
+                <h5 class="card-title">ADD A NOTE</h5>
+                <div class="mb-3">
+
+                    <label for="exampleFormControlInput1" class="form-label">TITLE:-</label>
+                    <input id="addtitle" type="email" class="form-control" id="exampleFormControlInput1" placeholder="ADD TITLE HERE">
+                </div>
+                <div class="form-floating">
+                    <textarea class="form-control my-1" style="height: 3%; background-color: rgb(247, 232, 214);" placeholder="Leave a comment here"
+                              id="addtxt"></textarea>
+                    <label for="floatingTextarea">YOUR NOTE:-</label>
+                </div>
+                <button class="btn btn-primary my-2" id="addbtn"> ADD NOTE</button>
+            </div>
+        </div>
+        <hr>
+
+
+
+
+
+        <h1>YOUR NOTES:-</h1>
+        <div id="notes" class="row container">
+
+
+        </div>
+
+
+    </div>
+
+    <div class="last">
+        <footer id="la">
+            <p class="about"><span> <b>About :-</b> You can add here your personal notes for future Memory and all your notes will always saved here untill you delete . </span></p>
+            <p><span> &copy; 2021 Created By Sneh</span></p>
+        </footer>
+    </div>
+
+
+
+
+
+
+    <script src="note.js"></script>
+</body>
+
+</html>

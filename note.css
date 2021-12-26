@@ -1,0 +1,14 @@
+﻿.last{
+background-color:black;
+height:auto;
+border:double;
+border-block-color:brown;
+color:white;
+
+}
+#la{
+    text-align:center;
+}
+.about{
+text-transform:capitalize;
+}
